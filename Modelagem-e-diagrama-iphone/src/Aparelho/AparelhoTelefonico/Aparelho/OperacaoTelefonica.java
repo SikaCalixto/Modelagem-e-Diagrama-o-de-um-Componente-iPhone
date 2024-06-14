@@ -11,13 +11,13 @@ public class OperacaoTelefonica implements AparelhoTelefonico {
     @Override
     public void atender() {
         
-        System.out.println();
+        System.out.println("Atendendo o Telefone");
     }
 
     @Override
     public void iniciarCorreioDeVoz() {
        
-        System.out.println();
+        System.out.println("enviando Mensagem de Voz");
     }
     
 }

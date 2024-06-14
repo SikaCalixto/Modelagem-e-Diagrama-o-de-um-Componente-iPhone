@@ -11,13 +11,13 @@ public class Navegando implements NavegadorInternet{
     @Override
     public void adicionarNovaAba() {
        
-        System.out.println();
+        System.out.println("Adicionando nova aba");
     }
 
     @Override
     public void atualizarPagina() {
         
-        System.out.println();
+        System.out.println("Atualizando a pagina");
     }
     
     

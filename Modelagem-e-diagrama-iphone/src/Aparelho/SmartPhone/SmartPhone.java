@@ -15,13 +15,13 @@ public class SmartPhone implements AparelhoTelefonico, NavegadorInternet, Reprod
     @Override
     public void atender() {
         
-        System.out.println();
+        System.out.println("Atendendo o Telefone");
     }
 
     @Override
     public void iniciarCorreioDeVoz() {
        
-        System.out.println();
+        System.out.println("enviando Mensagem de Voz");
     } {
     
 }
@@ -35,25 +35,25 @@ public class SmartPhone implements AparelhoTelefonico, NavegadorInternet, Reprod
     @Override
     public void adicionarNovaAba() {
        
-        System.out.println();
+        System.out.println("Adicionando nova aba");
     }
 
     @Override
     public void atualizarPagina() {
        
-        System.out.println();
+        System.out.println("Atualizando a pagina");
     }
 
     @Override
     public void tocar() {
        
-        System.out.println();
+        System.out.println("Tocando a música");
     }
 
     @Override
     public void pausar() {
         
-        System.out.println();
+        System.out.println("Pausando a música");
     }
 
     @Override
